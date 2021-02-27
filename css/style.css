@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    padding: 6px;
+    height: 60px;
+}
+
+.nav-bar a {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.nav-ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+#innerNav {
+    padding: 0 4px 0 32px;
+    vertical-align: middle;
+    background-color: white;
+    position: fixed;
+    right: 6px;
+    margin-top: 6px;
+    position: absolute;
+    /*margin-bottom: 12px;*/
+    /*margin-left: 18px;*/
+    /*margin-right: 2px;*/
+}
+
+#sign-in-button {
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: .25px;
+    height: 36px;
+    width: 96px;
+    margin: 0 8px;
+    padding: 9px 23px;
+    background-color: #1a73e8;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.dot-menu {
+    width: 24px;
+    height: 24px;
+    opacity: .6;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#dot-icon:hover {
+    background-color: #040505;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#logo {
+    width: 272px;
+    margin-left: 33.5px;
+    margin-top: 54px;
+}
+
+#input_icons {
+    text-indent: 30px;
+    border-radius: 24px;
+    width: 584px;
+    height: 45px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-left: 278px;
+    border-color: #dfe1e5;
+}
+
+#input_icons:hover {
+    box-shadow: 1px 1px 8px #999;
+}
+.icon-search {
+    position: absolute;
+    width: 20px;
+    top: 292.5px;
+    left: 491px;
+    font-size: 14px;
+    color: #9aa0a6;
+    opacity: .35;
+}
+
+.icon-voice {
+    position: absolute;
+    width: 24px;
+    right: 493px;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+.lower-button {
+    background-color: #f8f9fa;
+    margin: 11px 4px 11px 4px;
+    padding: 0 16px;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+}
+
+#lower-button-1 {
+    margin-left: 8px;
+}
+
+.lower-button-div {
+    margin-left: 410px;
+}
+
+.lower-button:hover {
+    border: 1px solid #ced4da;
+    /*box-shadow: 1px 1px 2px #aaa;*/
+}
+
+.under-search-bar {
+    margin-left: 450px;
+}
+
+#under-search-bar li, p {
+    list-style-type: none;
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: small;
+    line-height: 28px;
+    text-align: center;
+}
+
+#under-search-bar a {
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
+
+.footer1 {
+    position: fixed;
+    height: 48.6px;
+    left: 0;
+    bottom: 46.8px;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    text-align: center;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer1 p {
+    font-size: 15px;
+}
+
+.footer2 {
+    position: fixed;
+    height: 46.8px;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+#bottom-footer-left {
+    padding-top: 10px;
+    position: fixed;
+    margin-left: 25px;
+}
+
+#bottom-footer-right {
+    padding-top: 10px;
+    position: fixed;
+    right: 2%;
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+/*.footer-text {*/
+/*    margin: -3px 0 0 20px;*/
+/*}*/
+
+/*.footer-text a {*/
+/*    text-decoration: none;*/
+/*    color: #70757a;*/
+/*    font-family: arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    padding: 15px;*/
+/*}*/
+
+/*.footer-text-right a {*/
+/*    text-decoration: none;*/
+/*    color: #70757a;*/
+/*    font-family: arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    padding: 15px;*/
+/*}*/
+
+/*.footer-main {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.footer-main div {*/
+/*    display: inline;*/
+/*}*/
+
+.footer-text a {
+    text-decoration: none;
+    color: #70757a;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 15px;
+}
+#bottom-footer-left {
+    margin: -1px 0 0 20px;
+}
+
+#bottom-footer-right {
+    margin: -1px -10.5px 0 0;
+}
+

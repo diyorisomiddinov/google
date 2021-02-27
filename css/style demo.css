@@ -1,0 +1,103 @@
+#nav-bar-right a {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+
+
+
+#sign-in-button {
+    height: 35px;
+    width: 90px;
+    margin-top: 3px;
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+#google-logo {
+    height: 150px;
+    width: 400px;
+}
+
+.col-12 i {
+    position: absolute;
+}
+
+.col-12 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+#input_icons {
+    text-indent: 30px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 8px #999;
+}
+
+#icon-position {
+    text-indent: 5px;
+}
+
+.dot-menu {
+    margin: 10px;
+    width: 23px;
+    height: 23px;
+    opacity: .6;
+    margin-right: 18px
+}
+
+#mic-icon {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+#main-footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.region {
+    position: fixed;
+    height: 96px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    text-align: center;
+}
+
+#box {
+    border-bottom: 1px solid #dadce0;
+}
+
+#bottom-footer-left {
+    padding-top: 10px;
+    position: fixed;
+
+}
+
+#bottom-footer-right {
+    padding-top: 10px;
+    position: fixed;
+    right: 2%;
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
